@@ -8,7 +8,7 @@ module.exports = {
   defaultNetwork: "hardhat",
   networks: {
     hardhat: {
-      chainId: 1337
+      chainId: 80001
     },
     mumbai: {
       // Infura
@@ -23,7 +23,7 @@ module.exports = {
       // url: `https://polygon-mainnet.infura.io/v3/${infuraId}`,
       // url: `https://polygon-mainnet.infura.io/v3/${projectId}`
 
-      url: "https://rpc-mainnet.maticvigil.com",
+      url: "https://rpc-mainnet.maticvigil.com/",
       accounts: [privateKey]
     }
   
