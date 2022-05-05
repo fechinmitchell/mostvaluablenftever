@@ -11,7 +11,7 @@ export default function Home() {
                   </video>
                   </div>
                   
-            <div className= "font-bold mt-4 bg-white-300 text-white rounded p-4 shadow-lg">
+            <div className= "font-bold mt-4 bg-black text-white rounded p-4 shadow-lg">
               <a href="#">
                 <img
                   src={ "/img/logo/MVNFTE_Logo_UNDER.png"}
