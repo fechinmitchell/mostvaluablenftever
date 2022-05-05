@@ -5,7 +5,7 @@ export default function Nav() {
     return (
         <div className="py-4 px-8 bg-gray-700 text-white flex justify-between">
             <div className="text-xl"><img
-                  src={"/img/logo/MVNFTE_Logo.png.png"}
+                  src={"/img/logo/MVNFTE_Logo.png"}
                   alt=""/></div>
             <div className="flex">
             <nav className="border-b p-1">
