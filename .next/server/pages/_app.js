@@ -5,7 +5,7 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 8596:
+/***/ 4939:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -101,17 +101,86 @@ function Layout({ children  }) {
     }));
 };
 
+;// CONCATENATED MODULE: external "react-moralis"
+const external_react_moralis_namespaceObject = require("react-moralis");
 ;// CONCATENATED MODULE: ./pages/_app.js
 
 
 
 
 
+
+const appId = '';
+const serverUrl = '';
 function Marketplace({ Component , pageProps  }) {
-    return(/*#__PURE__*/ jsx_runtime_.jsx(Layout, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-            ...pageProps
-        })
+    return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_moralis_namespaceObject.MoralisProvider, {
+        appId: appId,
+        serverUrl: serverUrl,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx(Layout, {
+                children: /*#__PURE__*/ jsx_runtime_.jsx(Component, {
+                    ...pageProps
+                })
+            }),
+            "/* ",
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("nav", {
+                        className: "border-b p-6",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: "text-4xl font-bold",
+                                children: "1NOFF"
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: "flex mt-4",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
+                                        href: "/",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                            className: "mr-4 text-pink-500",
+                                            children: "Home"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
+                                        href: "/create-item",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                            className: "mr-6 text-pink-500",
+                                            children: "Create INOFF"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
+                                        href: "/collection",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                            className: "mr-6 text-pink-500",
+                                            children: "Collection"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
+                                        href: "/my-assets",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                            className: "mr-6 text-pink-500",
+                                            children: "My INOFFs"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
+                                        href: "/creator-dashboard",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                            className: "mr-6 text-pink-500",
+                                            children: "Creator Dashboard"
+                                        })
+                                    })
+                                ]
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(Component, {
+                        ...pageProps
+                    })
+                ]
+            }),
+            " */"
+        ]
     }));
 }
 /* harmony default export */ const _app = (Marketplace);
@@ -231,7 +300,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [730,664], () => (__webpack_exec__(8596)));
+var __webpack_exports__ = __webpack_require__.X(0, [730,664], () => (__webpack_exec__(4939)));
 module.exports = __webpack_exports__;
 
 })();

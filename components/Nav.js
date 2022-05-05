@@ -5,7 +5,7 @@ export default function Nav() {
     return (
         <div className="py-4 px-8 bg-gray-700 text-white flex justify-between">
             <div className="text-xl"><img
-                  src={"/img/logo/1NOFF_Logo.png"}
+                  src={"/img/logo/MVNFTE_Logo.png.png"}
                   alt=""/></div>
             <div className="flex">
             <nav className="border-b p-1">
@@ -30,7 +30,7 @@ export default function Nav() {
           </Link>
           <Link href="/my-assets">
             <a className="mr-6 text-green-200">
-              My INOFFs
+              The One and Only
             </a>
           </Link>
           <Link href="/creator-dashboard">
