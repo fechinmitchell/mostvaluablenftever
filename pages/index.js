@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <div className="text-xl">
-                  <video width="1600" height="700px" loop autoPlay muted>
+                  <video width="1600" height="500px" loop autoPlay muted>
                   <source src="/Video/FrontPage.mp4" type="video/mp4"/>
                   </video>
                   </div>
