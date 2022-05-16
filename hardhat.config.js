@@ -8,7 +8,7 @@ module.exports = {
   defaultNetwork: "hardhat",
   networks: {
     hardhat: {
-      chainId: 80001
+      chainId: 137
     },
     mumbai: {
       // Infura
